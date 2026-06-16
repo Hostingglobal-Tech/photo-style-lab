@@ -1,0 +1,24 @@
+node_modules
+build
+.cache
+dist
+
+.env
+.env.*
+!.env.example
+.vercel
+.serena
+.git.broken.*
+
+*.local
+*.log
+*.tsbuildinfo
+*.Identifier
+
+# Local reference photos used during early experiments.
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/public/sample.jpg
+!/public/hero.png
